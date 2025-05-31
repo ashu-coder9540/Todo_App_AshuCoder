@@ -1,0 +1,30 @@
+.task_container{
+    border: 2px solid brown;
+    border-radius: 8px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+}
+
+.task_heading{
+    font-size: 25px;
+    /* color: white; */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.task_complete{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 30px;
+    font-weight: bold;
+}
