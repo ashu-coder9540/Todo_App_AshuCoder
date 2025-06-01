@@ -1,4 +1,5 @@
 import Todo from "./comp/Todo"
+import 'bootstrap-icons/font/bootstrap-icons.css';
 function App() {
   return ( 
     <div>
