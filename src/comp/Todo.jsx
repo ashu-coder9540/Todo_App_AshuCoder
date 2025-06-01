@@ -12,7 +12,7 @@ function Todo() {
         const darkModeIcon = useRef();
 
 
-        const todoData = JSON.parse(localStorage.getItem("todo_items")) || [{ todoTask: "Buy Car", complete: false}]
+        const todoData = JSON.parse(localStorage.getItem("todo_items")) || []
 
         const [alltodo,setAllTodo] = useState(todoData)
 
